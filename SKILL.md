@@ -4,7 +4,7 @@ displayName: 前进写作引擎
 summary: "前进写作引擎 - 融合人民日报/新华社专业文笔与自媒体爆款基因，深度掌握国际主流通讯社风格/国内通稿写作范式/非通讯社专项通稿风格，具备自主进化能力的智能写作技能。核心价值观严格以新华社、人民日报国内媒体为立场。"
 name: qianjin-writer
 description: 前进写作引擎 - 融合人民日报/新华社专业文笔与自媒体爆款基因，深度掌握国际主流通讯社风格/国内通稿写作范式/非通讯社专项通稿风格，具备自主进化能力的智能写作技能。核心价值观严格以新华社、人民日报国内媒体为立场。
-version: 2.1.0
+version: 2.4.0
 category: 内容创作
 platforms: [workbuddy, claude-code, cursor, windsurf, codex]
 author: qianjin
@@ -88,11 +88,15 @@ license: MIT
 
 ## 三、核心工作流程
 
+> **写作前思考层（强制，先于一切结构选择）**：动笔前先走「找打动点 → 定具体情绪词 → 结构从情绪涌现 → 定收尾姿势」，详见 `references/cognition-layer.md`。结构从内容情绪里长出来，不套固定版式。
+
 ### 3.1 接收写作任务
 
 用户输入写作需求后，按以下流程执行：
 
 ```
+Step 0: 思考层（情绪→结构涌现，详见 cognition-layer.md）：先定打动点与具体情绪词，再让结构从情绪长出来，不套固定版式。
+
 Step 1: 需求解析
 ├── 主题/关键词是什么？
 ├── 发布平台？（公众号/小红书/抖音/知乎/B站/通用）
@@ -386,7 +390,10 @@ qianjin-writer/
 │   └── system-prompt-en.md          # 通用英文System Prompt
 └── references/
     ├── writing-style-dna.md          # 用户写作风格DNA深度分析
-    ├── viral-structures.md           # 爆款文案结构库
+    ├── viral-structures.md           # 爆款结构库（已升级为反AI味引擎）
+    ├── literary-craft.md             # 文学质感增强（名著名句可迁移修辞）
+    ├── anti-patterns.md              # 反面样例（写砸了长什么样）
+    ├── cognition-layer.md            # 写作前思考层（情绪→结构涌现）
     ├── golden-quotes.md              # 金句库与生成公式
     └── evolution-log.md              # 进化日志（持续更新）
 ```
