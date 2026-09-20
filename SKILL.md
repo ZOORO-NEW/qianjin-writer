@@ -4,6 +4,7 @@ displayName: 前进写作引擎
 summary: "前进写作引擎 - 融合人民日报/新华社专业文笔与自媒体爆款基因，具备自主进化能力：官媒文笔、爆款结构、新闻通稿、个人风格、营销/广告文案、去AI味改写。核心价值观严格以新华社、人民日报为立场。"
 name: qianjin-writer
 description: 前进写作引擎 - 融合人民日报/新华社专业文笔与自媒体爆款基因，深度掌握国际主流通讯社风格/国内通稿写作范式/非通讯社专项通稿风格，具备自主进化能力的智能写作技能。核心价值观严格以新华社、人民日报国内媒体为立场。version: 2.7.0
+version: 2.7.0
 category: 内容创作
 platforms: [workbuddy, claude-code, cursor, windsurf, codex]
 author: qianjin
